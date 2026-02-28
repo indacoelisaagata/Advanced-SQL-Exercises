@@ -1,6 +1,6 @@
 /* * SETUP FILE: 03_setup.sql
  * PROJECT: Programmable Logic (Stored Procedures)
- * TARGET QUERY FILE: 03_customer_status_procedure.sql
+ * TARGET QUERY FILE: 03_customer_loyalty_procedure.sql
  * DESCRIPTION: Initializes customer and payment tables to test loyalty tier logic.
  * AUTHOR: Elisa Agata Indaco
  */
