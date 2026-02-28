@@ -1,7 +1,8 @@
-/* * PROJECT: Real-World Booking System
- * SETUP SCRIPT: 05_setup.sql
+/* * PROJECT: Advanced SQL Portfolio - Coworking Booking
+ * TOPIC: Real-World System Design
  * GOAL: Manage room reservations with capacity constraints and conflict prevention.
- * CONCEPTS: ACID Transactions, Stored Procedures, Views, and Data Integrity.
+ * TECHNIQUE: ACID Transactions, Stored Procedures, and Relational Views.
+ * SETUP SCRIPT: 05_setup.sql
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
