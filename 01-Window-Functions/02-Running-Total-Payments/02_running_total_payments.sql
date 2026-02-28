@@ -1,8 +1,8 @@
-/* * PROJECT: Advanced SQL Portfolio
+/* * PROJECT: Advanced SQL Portfolio - Revenue Tracking
  * TOPIC: Time Series Analysis
- * GOAL: Calculate Daily Revenue and Running Total (Cumulative Sum)
- * TECHNIQUE: Window Functions (SUM() OVER) 
- * DATABASE: MySQL 8.0+
+ * GOAL: Calculate Daily Revenue and Running Total (Cumulative Sum).
+ * TECHNIQUE: Window Functions (SUM() OVER) with Frame Clause.
+ * SETUP SCRIPT: 02_setup.sql
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
