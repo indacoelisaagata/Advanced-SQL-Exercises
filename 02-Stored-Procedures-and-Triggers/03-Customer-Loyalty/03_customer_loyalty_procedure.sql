@@ -1,8 +1,8 @@
-/* * PROJECT: Advanced SQL Portfolio
+/* * PROJECT: Advanced SQL Portfolio - Customer CRM
  * TOPIC: Programmable Logic (Stored Procedures)
- * GOAL: Categorize customers based on their total spending
+ * GOAL: Categorize customers based on their total spending.
+ * TECHNIQUE: IN/OUT Parameters, Variables, and IF-THEN-ELSE Logic.
  * SETUP SCRIPT: 03_setup.sql
- * TECHNIQUE: IN/OUT Parameters, Variables, and IF-THEN-ELSE Logic
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
