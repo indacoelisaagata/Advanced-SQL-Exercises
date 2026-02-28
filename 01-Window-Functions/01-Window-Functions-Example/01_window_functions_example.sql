@@ -1,9 +1,9 @@
-/* * PROJECT: Advanced SQL Portfolio
- * SETUP SCRIPT: 01_setup.sql
+/* * PROJECT: Advanced SQL Portfolio - Movie Rentals
  * TOPIC: Sales Analysis using Window Functions
- * GOAL: Rank movies by rental popularity within each category
- * TECHNIQUE: Common Table Expressions (CTE) & DENSE_RANK()
- * AUTHOR: Elisa Agata Indaco 
+ * GOAL: Rank movies by rental popularity within each category.
+ * TECHNIQUE: Common Table Expressions (CTE) & DENSE_RANK().
+ * SETUP SCRIPT: 01_setup.sql
+ * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
  * - category (category_id, name): Master data for movie genres.
