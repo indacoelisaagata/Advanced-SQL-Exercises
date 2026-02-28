@@ -1,7 +1,8 @@
-/* * PROJECT: Query Performance Optimization
+/* * PROJECT: Advanced SQL Portfolio - Optimization Refactoring
+ * TOPIC: Code Quality & Execution Efficiency
+ * GOAL: Refactor a subquery-heavy script into a high-performance CTE solution.
+ * TECHNIQUE: CTE Materialization vs Nested Subqueries.
  * SETUP SCRIPT: 07_setup.sql
- * GOAL: Refactor a subquery-heavy script into an efficient CTE-based solution.
- * SCENARIO: Identifying "High-Value Customers" who spent more than the global average.
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
