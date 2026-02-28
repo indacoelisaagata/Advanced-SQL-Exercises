@@ -4,6 +4,7 @@
  * TECHNIQUE: Window Functions (SUM() OVER) 
  * DATABASE: MySQL 8.0+
  * AUTHOR: Elisa Agata Indaco
+ *
  * DATABASE SCHEMA:
  * - payment (payment_id, customer_id, amount, payment_date): 
  * Contains transactional data for all customer payments.
