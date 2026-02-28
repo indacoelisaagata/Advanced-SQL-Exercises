@@ -3,7 +3,7 @@
  * TARGET QUERY FILE: 01_window_functions_example.sql
  * DESCRIPTION: Initializes tables and populates data for movie rental analysis.
  * AUTHOR: Elisa Agata Indaco
- */
+ */ 
 
 -- Disable foreign key checks to facilitate table recreation
 SET FOREIGN_KEY_CHECKS = 0;
