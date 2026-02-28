@@ -10,6 +10,12 @@
  * - payment (payment_id, customer_id, amount)
  */
 
+-- ---------------------------------------------------------
+-- APPROACH 1: THE "NAIVE" WAY (Suboptimal)
+-- This version uses nested subqueries which can be slow as 
+-- the database might re-evaluate the inner query for every row.
+-- ---------------------------------------------------------
+
 /*
 SELECT customer_id, first_name, last_name
 FROM customer
