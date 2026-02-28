@@ -1,7 +1,8 @@
-/* * PROJECT: Finance Portfolio Analytics
- * SETUP SCRIPT: 06_setup.sql
+/* * PROJECT: Advanced SQL Portfolio - Finance Analytics
+ * TOPIC: Portfolio Management & Data Security
  * GOAL: Track asset positions and prevent illegal transactions (Short Selling Protection).
- * CONCEPTS: Data Integrity, Conditional Aggregation, and Database Triggers.
+ * TECHNIQUE: Conditional Aggregation (CASE) and Database Triggers (BEFORE INSERT).
+ * SETUP SCRIPT: 06_setup.sql
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
