@@ -1,8 +1,8 @@
-/* * PROJECT: Advanced SQL Portfolio
+/* * PROJECT: Advanced SQL Portfolio - System Optimization
  * TOPIC: Performance Tuning & Indexing
- * GOAL: Demonstrate the impact of Indexes on Query Execution
+ * GOAL: Demonstrate and measure the impact of B-Tree Indexes on query speed.
+ * TECHNIQUE: EXPLAIN Statement & Indexing Strategy (O(N) vs O(log N)).
  * SETUP SCRIPT: 04_setup.sql
- * TECHNIQUE: EXPLAIN Statement & B-Tree Indexing
  * AUTHOR: Elisa Agata Indaco
  *
  * DATABASE SCHEMA:
