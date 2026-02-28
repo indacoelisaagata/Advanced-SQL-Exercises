@@ -1,10 +1,18 @@
 /* * PROJECT: Advanced SQL Portfolio
+ * SETUP SCRIPT: 01_setup.sql
  * TOPIC: Sales Analysis using Window Functions
  * GOAL: Rank movies by rental popularity within each category
  * TECHNIQUE: Common Table Expressions (CTE) & DENSE_RANK()
- * DATABASE: Compatibility with MySQL 8.0+ (Sakila-style schema)
  * AUTHOR: Elisa Agata Indaco 
+ *
+ * DATABASE SCHEMA:
+ * - category (category_id, name): Master data for movie genres.
+ * - film (film_id, title): Master data for movie titles.
+ * - film_category (film_id, category_id): Mapping table (N:M relationship).
+ * - inventory (inventory_id, film_id): Individual physical/digital copies of films.
+ * - rental (rental_id, rental_date, inventory_id): Transactional data for rentals.
  */
+ 
 
 -- Step 1: Create a CTE to aggregate total rentals per movie and category
 WITH CategoryRentals AS (
@@ -41,4 +49,10 @@ ORDER BY category_name, category_rank;
  * related to the current row, without collapsing them into a single output row.
  * 3. Performance: In a production environment, ensure indexes exist on foreign keys 
  * (category_id, film_id, inventory_id) to optimize JOIN operations.
+ */
+
+/* * DESIGN CHOICE: DENSE_RANK() vs RANK()
+ * I chose DENSE_RANK() to ensure a continuous ranking sequence. 
+ * If two movies share the same rental count, the next rank will not be skipped, 
+ * providing a more readable leaderboard for business stakeholders.
  */
