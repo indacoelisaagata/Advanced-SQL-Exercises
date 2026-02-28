@@ -10,6 +10,12 @@
  * - payments (payment_id, customer_id, amount, payment_date)
  */
 
+-- Preventive Cleanup: Remove the procedure if it already exists to avoid conflicts.
+DROP PROCEDURE IF EXISTS GetCustomerStatus;
+
+-- 2. Change Delimiter: Switch from ';' to '//' to allow the use of semicolons inside the procedure body.
+DELIMITER //
+
 -- Step 1: Define the Procedure
 CREATE PROCEDURE GetCustomerStatus(
     IN p_customer_id INT,
@@ -32,6 +38,9 @@ BEGIN
         SET p_status = 'SILVER';
     END IF;
 END;
+
+-- Restore Delimiter: Reset back to the standard ';' for regular SQL queries.
+DELIMITER ;
 
 -- Step 2: How to test the procedure (Usage Example)
 -- CALL GetCustomerStatus(1, @current_status);
